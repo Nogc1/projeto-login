@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@media screen {
+    
+}
+
+/* 
+    Paleta de cores
+    azul escuro: #191970
+    azul ciano: #154C7D
+    azul: #3C3CBD
+    amarelo: #BD9B04
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #191970;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center; 
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+}
+
+section p {
+    text-align: justify;
+    padding: 0px 10px ;
+}
+
+div#imagem {
+    /* display: block; */
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+    background-image: url(../metal.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#inputs {
+    padding: 10px;
+    display: block;
+}
+
+input.input {
+    margin: 3px;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    border-color: #154C7D;
+    border-style: solid;
+}
+
+input#enviar {
+    margin: 3px;
+    padding: 6px;
+    width: 180px;
+    color: white;
+    background-color: #191970;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+input#enviar:hover {
+    background-color: #191970b0;
+    color: rgb(228, 228, 228);
+}
+
+input#esqsenha {
+    margin: 3px;
+    padding: 6px;
+    width: 180px;
+    border-color: #191970;
+    background-color: white;
+    border-radius: 5px;
+    color: #191970;
+    margin-left: 15px;
+}
+
+span {
+    background-color: #154C7D;
+    border-radius: 5px 0px 0px 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}

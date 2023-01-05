@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body, html {
+        background-image: linear-gradient(#191970, #154C7D);
+        margin: 0px;
+    }
+
+    section {
+        height: 274px;
+        width: 500px;
+        display: inline-block;
+    }
+
+    div#imagem {
+        display: inline-block;
+        width: 200px;
+        height: 274px;
+        background-position: left center;
+        position: relative;
+        right: 23px;
+    }
+
+    div#inputs {
+        display: inline-block;
+        position: relative;
+        left: 0px;
+        bottom: 55px;
+    }
+
+    input#enviar {
+        width: 213px; 
+    }
+
+    input#esqsenha {
+        width: 213px;
+    }
+
+    p {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body, html {
+        background-image: linear-gradient(#191970, #154C7D );
+        height: 100vh;
+        width: 100vw;
+        margin: 0px;
+    }
+
+    section {
+        width: 750px;
+        height: 400px;
+        display: inline-block;
+    }
+
+
+    div#imagem {
+        display: inline-block;
+        width: 320px;
+        height: 400px;
+        background-position: left center;
+        position: relative;
+        left: 363px; 
+    }
+
+    div#inputs {
+        display: inline-block;
+        position: relative;
+        left: -320px;
+        bottom: 122px;
+    }
+
+    input.input {
+        margin: 3px;
+        padding: 5px;
+        width: 200px;
+        height: 25px;
+        border-radius: 0px 5px 5px 0px;
+        border-color: #154C7D;
+        border-style: solid;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    input#enviar {
+        width: 245px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    input#esqsenha {
+        width: 245px;
+        height: 35px;
+        margin-right: 10px; 
+    }
+
+    p {
+        display: none;
+    }
+    span {
+        height: 34px;
+        background-color: #154C7D;
+        border-radius: 5px 0px 0px 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+}
