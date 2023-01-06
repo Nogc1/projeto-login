@@ -15,11 +15,11 @@
 
     div#imagem {
         display: inline-block;
-        width: 200px;
-        height: 274px;
+        width: 210px;
+        height: 276px;
         background-position: left center;
         position: relative;
-        right: 23px;
+        right: 28px;
     }
 
     div#inputs {
@@ -104,13 +104,12 @@
         display: none;
     }
     span {
-        height: 34px;
+        padding: 7px;
         background-color: #154C7D;
         border-radius: 5px 0px 0px 5px;
-        padding-right: 10px;
-        padding-bottom: 5px;
         position: relative;
-        top: 0px;
+        padding-bottom: 8px;
+        top: 7px;
         left: 10px;
     }
 }
